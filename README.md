@@ -1,10 +1,13 @@
-# Output1:
+# Output-1:
 ![](Output1.png)
-# Output2:
+# Output-2:
 ![](Output2.png)
 
-# Github Link
+# Github Link :
 [Github - Birthday Finder](https://github.com/akshith-07/React-EndPaperTAsk)
+
+# Hosted Link :
+[Hosted Link -Birthday Finder](https://birthday-finder-react.vercel.app/)
 
 # Getting Started with Create React App
 
