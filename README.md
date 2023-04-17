@@ -4,7 +4,7 @@
 ![](Output2.png)
 
 # Github Link
-![Github - Birthday Finder](https://github.com/akshith-07/React-EndPaperTAsk)
+[Github - Birthday Finder](https://github.com/akshith-07/React-EndPaperTAsk)
 
 # Getting Started with Create React App
 
