@@ -1,49 +1,62 @@
-*
-{
-    background-color:black;
-    color: aqua;
-    font-family: 'Times New Roman', Times, serif;
-}
-#date
-{
-    color: aliceblue;
-    border-color: aqua;
-}
-input{
-    color-scheme: dark;
-    size: 50%;
-    width: 100px;
-    height: 50px;
-}
-h1{
-    font-size: 50px;
-}
-.getdate
-{
-    height: 200;
-    width: 500px;
-    background-color: rgba(0, 0, 0, 0.303);
-    color: #fff;
-    padding: 50px;
-    border: solid 3px aqua;
-    box-shadow: 0 0 5px 5px aqua;
-   font-size: 35px;
-    margin-left: 30%;
-    
-}
-input[type="date"]
-{
-    width: 50%;
-    height: 50px;
-    color: aqua;
-    box-sizing: 50px;
-    padding: 50px;
-    font-size: 40px;
-    box-shadow:0 0 2.5px 2.5px aqua ;
-
+* {
+  color: black;
+  /* background: linear-gradient(
+    30deg,
+    rgba(236, 240, 245, 0.7) 34%,
+    rgba(65, 171, 192, 0.7) 100%
+  ); */
 }
 
-div.container{
-    width: 80%;
-    margin:0 auto;
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 50px;
+  color: black;
+}
+.getdate {
+  height: 200;
+  width: 500px;
+  color: #fff;
+  padding: 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(21, 101, 187, 0.7) 34%,
+    rgba(0, 212, 255, 0.7) 100%
+  );
+
+  font-size: 35px;
+  border-radius: 50px;
+  transition: 1s;
+  border: 2px solid black;
+}
+.getdate:hover {
+  box-shadow: 5px 5px 2.5px 2.5px black;
+  transition: 1s;
+}
+input[type="date"] {
+  width: 50%;
+  height: 50px;
+  color: black;
+  box-sizing: 50px;
+  padding: 2rem 3rem;
+  font-size: 30px;
+  border-radius: 1rem;
+  border: 2px solid black;
+}
+
+div.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#dark {
+  font-weight: 2rem;
+  color: black;
+  font-size: 45px;
+  font-kerning: initial;
 }
